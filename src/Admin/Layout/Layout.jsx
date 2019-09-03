@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import Head from '../Head/Head';
-import Expenditure from '../Expenditure/Expenditure';
+import Expenditure2 from '../Expendtiture2/Expenditure2';
 class Layout extends Component {
     render() { 
         return (  
@@ -14,7 +14,9 @@ class Layout extends Component {
                 </section>
 
                 <section id="main-content">
-                    <Expenditure />  
+                    <section className="wrapper">
+                        <Expenditure2 />    
+                    </section>  
                 </section>
             </>
         );

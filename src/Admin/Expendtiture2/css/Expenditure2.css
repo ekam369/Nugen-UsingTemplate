@@ -1,0 +1,24 @@
+.addExp-button {
+    background: #4064f6;
+    border: none;
+    outline: none;
+}
+.addExp-button:active{
+    background: #4064f6;
+    outline: none;
+}
+.addExp-button:hover {
+    background: #4064f6;
+    outline: none;
+}
+.findExp-button:hover {
+    background: #4064f6;
+}
+.findExp-button:active {
+    background: #4064f6;
+}
+.for-table{
+    color: #fff;
+    background-color:rgb(32,37,65);
+    border-radius: 40px;
+}

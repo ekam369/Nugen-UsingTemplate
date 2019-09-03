@@ -278,7 +278,7 @@ ul.top-menu {
 ul.top-menu > li > a {
     color: #fff;
     font-size: 16px;
-    background: #8b5c7e;
+    background: rgba(0, 0, 0, 0.288);
     padding: 4px 8px;
     margin-right: 15px;
     border-radius: 50%;
@@ -286,13 +286,13 @@ ul.top-menu > li > a {
     padding-right: 8px !important;
 }
 ul.top-menu>li>a:hover,ul.top-menu>li>a:focus {
-    background:#fa9fa4;
+    background:rgba(0, 0, 0, 0.507);
     text-decoration:none;
     color:#fff !important;
     padding-right:8px !important;
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-     background:#fa9fa4 !important;
+     background:rgba(0, 0, 0, 0.507) !important;
     color:#fff !important;
 }
 .notify-row .badge {
@@ -1635,8 +1635,8 @@ ul.bs-glyphicons-list {
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .table-agile-info{
-	background: #eef9f0;
-    padding: 2em;
+	background: #fff;
+    padding: 1em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -1650,8 +1650,8 @@ ul.bs-glyphicons-list {
 }
 .panel-default>.panel-heading {
     color: #000000 ! important;
-    background-color: #ddede0 ! important;
-    border-color: #ddede0 ! important;
+    background-color: #fff ! important;
+    /* border-color: #ddede0 ! important; */
     font-size: 20px;
 }
 p.hd-title {
@@ -1685,10 +1685,11 @@ p.hd-title {
     color: #f05050;
 }
 .btn-default {
-    color: #58666e !important;
-    background-color: #fcfdfd;
-    background-color: #fff;
+    color: #fff !important;
+    background-color: #4064f6;
+    background-color: #4064f6;
     border-color: #dee5e7;
+    font-weight: bold;
     border-bottom-color: #d8e1e3;
     -webkit-box-shadow: 0 1px 1px rgba(90, 90, 90, 0.1);
     box-shadow: 0 1px 1px rgba(90, 90, 90, 0.1);

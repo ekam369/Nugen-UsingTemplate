@@ -1,0 +1,62 @@
+.mod-head {
+  font-size: 24px;
+  background: #fff;
+}
+
+.inp-details-box {
+  padding-left: 30px;
+}
+
+.inp-details-box .detail-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: -13px;
+  margin-bottom: 4px;
+}
+
+.inp-details-box select {
+  padding: 4px 8px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  border: rgba(0, 0, 0, 0.541) solid 1px;
+  outline: none;
+  font-size: 14px;
+  width: 90%;
+  background: none;
+  color: rgba(41, 41, 41, 0.493);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.inp-details-box select:focus {
+  color: #000;
+}
+
+.inp-details-box input {
+  padding: 4px 12px;
+  margin-top: 2px;
+  margin-bottom: 14px;
+  border: rgba(0, 0, 0, 0.541) solid 1px;
+  outline: none;
+  font-size: 14px;
+  width: 90%;
+  background: none;
+  color: rgba(0, 0, 0, 0.753);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.inp-details-box label {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "poppins";
+  color: rgba(0, 0, 0, 0.698);
+}
+/*# sourceMappingURL=ExpenditureInput.css.map */

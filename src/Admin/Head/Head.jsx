@@ -83,7 +83,7 @@ class Head extends Component {
 
                         <li id="header_inbox_bar" className="dropdown">
                             <a data-toggle="dropdown" className="dropdown-toggle" href="index.html">
-                                <i className="fa fa-envelope-o"></i>
+                                <i className="fa fa-envelope"></i>
                                 <span className="badge bg-important">4</span>
                             </a>
                             <ul className="dropdown-menu extended inbox">
@@ -147,7 +147,7 @@ class Head extends Component {
                         <li id="header_notification_bar" className="dropdown">
                             <a data-toggle="dropdown" className="dropdown-toggle" href="index.html">
 
-                                <i className="fa fa-bell-o"></i>
+                                <i className="fa fa-bell"></i>
                                 <span className="badge bg-warning">3</span>
                             </a>
                             <ul className="dropdown-menu extended notification">
