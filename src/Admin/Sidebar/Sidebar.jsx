@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 class Sidebar extends Component {
+
+    routeComponents = (e) => {
+            console.log(e)
+        return(
+            <Link to="/"></Link>
+        )
+    }
+
     render() { 
         return (  
             <div id="sidebar" className="nav-collapse">
@@ -29,10 +38,10 @@ class Sidebar extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a href="typography.html">
+                                <Link className="route-link" to="/expenditure">
                                     <i className="fa fa-rupee"></i>
-                                    <span>Expenditures</span>
-                                </a>
+                                    <span onClick={this.routeComponents} name="expenditure">Expenditures</span>
+                                </Link>
                             </li>
                             <li>
                                 <a href="typography.html">
