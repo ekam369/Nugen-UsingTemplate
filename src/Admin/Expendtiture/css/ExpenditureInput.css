@@ -53,6 +53,22 @@
   border-radius: 10px;
 }
 
+.inp-details-box input ::-webkit-input-placeholder {
+  color: #000;
+}
+
+.inp-details-box input :-ms-input-placeholder {
+  color: #000;
+}
+
+.inp-details-box input ::-ms-input-placeholder {
+  color: #000;
+}
+
+.inp-details-box input ::placeholder {
+  color: #000;
+}
+
 .inp-details-box label {
   font-size: 14px;
   font-weight: 100;

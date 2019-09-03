@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import Head from '../Head/Head';
-import Expenditure2 from '../Expendtiture2/Expenditure2';
+import { Switch, Route } from 'react-router-dom';
+import Expenditure from '../Expendtiture/Expenditure';
 class Layout extends Component {
     render() { 
         return (  
@@ -15,7 +16,9 @@ class Layout extends Component {
 
                 <section id="main-content">
                     <section className="wrapper">
-                        <Expenditure2 />    
+                        <Switch>
+                            <Route path="/expenditure" component={Expenditure}/>
+                        </Switch>
                     </section>  
                 </section>
             </>
