@@ -2,9 +2,30 @@ import React, { Component } from 'react';
 import './css/Expenditure2.css';
 import ExpenditureTable from './ExpenditureTable';
 import ExpenditureInput from './ExpenditureInput';
+import ExpenditureEdit from './ExpenditureEdit';
 class Expenditure2 extends Component {
 
+    constructor() {
+        super();
+        this.state = {
+            expenditures: {
+                amount: 0,
+                description: "",
+                from_account_of: "",
+                mode_of_payment: "",
+                paid_by: ""
+            }
+        }
+    }
+
+    populateExpenditures = (expenditure) => {
+        this.setState({
+            expenditures: expenditure
+        })
+    }
+
     render() { 
+        console.log(this.state.expenditures);
         return (  
             <div className="table-agile-info">
                 <div className="panel panel-default">
@@ -17,10 +38,6 @@ class Expenditure2 extends Component {
                             <i className="fa fa-plus-circle"></i>&nbsp;
                             <b>Add</b>
                         </div>
-                        {/* <div onClick={this.makeModalShow} className="btn btn-primary addExp-button">
-                            <i className="fa fa-plus-circle"></i>&nbsp;    
-                            <b>Add</b>
-                        </div>                 */}
                     </div>
                     <div className="col-sm-4">
                     </div>
@@ -33,8 +50,10 @@ class Expenditure2 extends Component {
                         </div>
                     </div>
                     </div>
-                    <ExpenditureTable />
+                    <ExpenditureTable populateExpenditures={this.populateExpenditures} />
                     <ExpenditureInput />
+                    <ExpenditureEdit expenditureFields={this.state.expenditures}/>
+                    
                 </div>
             </div>
         );

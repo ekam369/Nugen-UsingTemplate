@@ -25,7 +25,7 @@ class ExpenditureInput extends Component {
     render() { 
         return (
             <>
-                <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-sm" role="document">
                         <div className="modal-content">
                         <form>
@@ -39,7 +39,7 @@ class ExpenditureInput extends Component {
                         <div className="inp-details-box">
                             <div className="detail-box">
                                 <label>PAID BY</label>
-                                <input onChange={this.handleInput} type="text" name="paid_by"  placeholder={"Paid By"} required/>
+                                <input onChange={this.handleInput} type="text" name="paid_by" placeholder="Paid By" required/>
                             </div>
                             <div className="detail-box">
                                 <label>Description</label>

@@ -46,7 +46,9 @@ class ExpenditureTable extends Component {
                                             <td>{v.mode_of_payment}</td>
                                             <td>{v.from_account_of}</td>
                                             <td>{v.amount}</td>
-                                            <td><i style={{color:"#4064f6", fontSize:"18px", fontWeight:"bold"}} className="fa fa-edit"></i></td>
+                                            <td>
+                                                <i style={{color:"#4064f6", fontSize:"18px", fontWeight:"bold", cursor:"pointer"}} data-toggle="modal" data-target="#myModal" onClick={() => this.props.populateExpenditures(v)} className="fa fa-edit"></i>
+                                            </td>
                                         </tr>
                                     )
                                 })
